@@ -13,17 +13,25 @@ public class Book {
     }
 
     // Getters and Setters
-    public String getBookId() { return bookId; }
-    public void setBookId(String bookId) { this.bookId = bookId; }
+    public String getBookId() { 
+        return bookId; }
+    public void setBookId(String bookId) { 
+        this.bookId = bookId; }
 
-    public String getTitle() { return title; }
-    public void setTitle(String title) { this.title = title; }
+    public String getTitle() { 
+        return title; }
+    public void setTitle(String title) { 
+        this.title = title; }
 
-    public String getAuthor() { return author; }
-    public void setAuthor(String author) { this.author = author; }
+    public String getAuthor() { 
+        return author; }
+    public void setAuthor(String author) { 
+        this.author = author; }
 
-    public boolean isBorrowed() { return isBorrowed; }
-    public void setBorrowed(boolean isBorrowed) { this.isBorrowed = isBorrowed; }
+    public boolean isBorrowed() { 
+        return isBorrowed; }
+    public void setBorrowed(boolean isBorrowed) { 
+        this.isBorrowed = isBorrowed; }
 
     @Override
     public String toString() {
